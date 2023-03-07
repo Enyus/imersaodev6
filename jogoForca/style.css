@@ -1,0 +1,144 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+    background-color: #013062;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body>img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 350px;
+}
+
+.geral {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.canvas {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.canvas img {
+    display: block;
+    position: relative;
+}
+
+.cabeca {
+    top: -355px;
+}
+
+.coluna {
+    top: -705px;
+}
+
+.braco-esquerdo {
+    top: -1055px;
+}
+
+.braco-direito {
+    top: -1405px;
+}
+
+.perna-esquerda {
+    top: -1755px;
+}
+
+.perna-direita {
+    top: -2105px;
+}
+
+.perguntas {
+    width: 350px;
+    min-height: 350px;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+li {
+    font-size: 2rem;
+    background-color: lightgray;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-bottom: 5px solid black;
+}
+
+label,
+input,
+button {
+    display: block;
+    margin: 10px auto;
+}
+
+input {
+    font-size: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+}
+
+button {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.erro {
+    color: red;
+    border-color: red;
+}
+
+.vitoria {
+    color: green;
+    font-size: 2rem;
+    margin: 50% auto;
+}
+
+.derrota {
+    color: red;
+    font-size: 2rem;
+    margin: 50% auto;
+}

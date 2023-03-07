@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+    background-color: #0d386a;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body>img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 250px;
+}
+
+.container__main {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border: solid 10px #0d3260;
+    background-color: #6bd0fe;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+    text-decoration: underline;
+}
+
+input {
+    width: 100%;
+    min-height: 4rem;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px 0;
+    border: solid 3px #0d3260;
+    border-radius: 5px;
+    background-color: #efefef;
+}
+
+.botao__converter {
+    background-color: red;
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 2rem;
+    color: #efefef;
+    cursor: pointer;
+}
+
+.botao__converter:hover {
+    background-color: #ff1111;
+}
