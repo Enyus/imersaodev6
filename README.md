@@ -16,15 +16,15 @@ Minha intenção inicial era fazer nas aulas mais do que o esperado, especialmen
 ## Aula 1 - Conversor de Moedas
 O objetivo desta aula era apresentar os conceitos básicos de JavaScript para os iniciantes, usando operadores matemáticos comuns.
 
-Decidi consumir a <link href="https://docs.awesomeapi.com.br/api-de-moedas"> API de Economia da Awesome API</link> para usar as cotações reais oferecidas pelo serviço e a função nativa do Javascript de formatação de moedas <link href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat">``Intl.NumberFormat(params)``</link>.
+Decidi consumir a <a href="https://docs.awesomeapi.com.br/api-de-moedas"> API de Economia da Awesome API</a> para usar as cotações reais oferecidas pelo serviço e a função nativa do Javascript de formatação de moedas <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat">``Intl.NumberFormat(params)``</a>.
 
 <img src="./assets/conversorDeMoedas.png" alt="tela do conversor de moedas">
-<link href="https://codepen.io/Enyus/pen/dyjgoOM">Veja no CodePen.</link>
+<a href="https://codepen.io/Enyus/pen/dyjgoOM">Veja no CodePen.</a>
 
 ## Aula 2 - Mentalista
 A idéia inicial da aula era criar um jogo de adivinhação em que o usuário deveria tentar descobrir um número gerado automaticamente pela função ``Math.Random()`` usando Prompts e Alerts.
 
-Resolvi consumir a <link href="https://api.dicionario-aberto.net/index.html">API Dicionário aberto</link> para criar uma palavra aleatoriamente para que o usuário pudesse chutar letra a letra e, sempre que errasse, a forca iria se completando. Usou-se, além do fetch para consumir a API, métodos de array, métodos de alteração do DOM e eventos.
+Resolvi consumir a <a href="https://api.dicionario-aberto.net/index.html">API Dicionário aberto</a> para criar uma palavra aleatoriamente para que o usuário pudesse chutar letra a letra e, sempre que errasse, a forca iria se completando. Usou-se, além do fetch para consumir a API, métodos de array, métodos de alteração do DOM e eventos.
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTY5ZTlhYTM3M2E2M2NmNDlmOTYwMzVlOTQ1NmJlZTIxZjYxNGJkZCZjdD1n/vDDMepGk3VoBvFlgbg/giphy-downsized.gif" alt="gif do jogo da forca em funcionamento"><br>
-<link href="https://codepen.io/Enyus/pen/QWBzLRx">Veja no CodePen.</link>
+<a href="https://codepen.io/Enyus/pen/QWBzLRx">Veja no CodePen.</a>
