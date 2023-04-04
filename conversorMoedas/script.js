@@ -122,3 +122,26 @@ function formatarTudo() {
         ","
     );
 }
+
+
+inputEmReal.onfocus = (e) => (e.target.value = "");
+inputEmReal.onclick = (e) => (e.target.value = "");
+inputEmDolar.onfocus = (e) => (e.target.value = "");
+inputEmDolar.onclick = (e) => (e.target.value = "");
+inputEmEuro.onfocus = (e) => (e.target.value = "");
+inputEmEuro.onclick = (e) => (e.target.value = "");
+inputEmBitcoin.onfocus = (e) => (e.target.value = "");
+inputEmBitcoin.onclick = (e) => (e.target.value = "");
+
+inputEmReal.onkeypress = (e) => {
+  e.key == "Enter" ? botaoConverterDoReal.click() : "";
+};
+inputEmDolar.onkeypress = (e) => {
+  e.key == "Enter" ? botaoConverterDoDolar.click() : "";
+};
+inputEmEuro.onkeypress = (e) => {
+  e.key == "Enter" ? botaoConverterDoEuro.click() : "";
+};
+inputEmBitcoin.onkeypress = (e) => {
+  e.key == "Enter" ? botaoConverterDoBitcoin.click() : "";
+};
